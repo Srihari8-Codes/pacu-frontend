@@ -23,23 +23,11 @@ Run from the root directory:
 npm install
 ```
 
-### 2. Configure Environment Variables
-You need to set up your environment variables before running the application.
-Copy the example file to create your own configuration:
-```bash
-cp .env.example .env
-```
-Update `.env` with the IP/port of the backend server:
-```text
-VITE_API_URL=http://<backend-ip>:8181/api
-VITE_SOCKET_URL=http://<backend-ip>:8181
-```
-
-### 3. Start Development Server
+### 2. Start Development Server
 ```bash
 npm run dev
 ```
-The app will be available at `http://localhost:3000`.
+The app will be available at `http://localhost:3000` and automatically connect to the backend securely.
 
 ## Production Deployment 🚀
 
